@@ -2,8 +2,8 @@ Univerzitet u Sarajevu\
 Elektrotehnički fakultet Sarajevo\
 Predmet: Razvoj programskih rješenja 2018/2019
 
-#Tutorijal 3 
-###Priprema za tutorijal
+# Tutorijal 3 
+### Priprema za tutorijal
 >Forkujte ovaj projekat u svoju grupu.
 Pokušajte kod kuće uraditi jedan dio koda kako biste na samom tutorijalu 
 imali dovoljno vremena da dovršite zadatak i prodiskutujete eventualne nedoumice s tutorom. 
