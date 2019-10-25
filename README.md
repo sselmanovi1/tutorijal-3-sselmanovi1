@@ -4,7 +4,7 @@ Predmet: Razvoj programskih rješenja 2019/2020
 
 # Tutorijal 3 
 ### Priprema za tutorijal
->Forkujte ovaj projekat u svoju grupu.
+>Kreirajte GitHub repozitorij koristeći pozivnicu koju ste dobili.
 Pokušajte kod kuće uraditi jedan dio koda kako biste na samom tutorijalu 
 imali dovoljno vremena da dovršite zadatak i prodiskutujete eventualne nedoumice s tutorom. 
 Potrebno je minimalno implementirati jednu klasu.
