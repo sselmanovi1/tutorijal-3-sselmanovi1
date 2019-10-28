@@ -1,6 +1,5 @@
 package ba.unsa.etf.rpr.tutorijal_3;
 
-package ba.unsa.etf.rpr.tutorijal03;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -11,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Imenik {
-    public enum Grad {BIHAC, ORASJE, TUZLA, ZENICA, GORAZDE, TRAVNIK, MOSTAR, SIROKI_BRIJEG, SARAJEVO, LIVNO, BRCKO;}
+   //public enum Grad {BIHAC, ORASJE, TUZLA, ZENICA, GORAZDE, TRAVNIK, MOSTAR, SIROKI_BRIJEG, SARAJEVO, LIVNO, BRCKO;}
     private HashMap<String, TelefonskiBroj> imenik = new HashMap<String, TelefonskiBroj> ();
 
     public void dodaj(String ime, TelefonskiBroj broj) {
@@ -43,7 +42,7 @@ public class Imenik {
         return str;
     }
 
-    public final Set<String> izGrada(Grad g) {
+    public final Set<String> izGrada(FiksniBroj.Grad g) {
         Set<String> s = new HashSet<>();
         for (Map.Entry<String, TelefonskiBroj> ulaz : imenik.entrySet()) {
             TelefonskiBroj br = ulaz.getValue();
@@ -59,7 +58,7 @@ public class Imenik {
         return s;
     }
 
-    public final Set<TelefonskiBroj> izGradaBrojevi(Grad g) {
+    public final Set<TelefonskiBroj> izGradaBrojevi(FiksniBroj.Grad g) {
         Set<TelefonskiBroj> s = new HashSet<>();
         for (Map.Entry<String, TelefonskiBroj> ulaz : imenik.entrySet()) {
             TelefonskiBroj br = ulaz.getValue();
